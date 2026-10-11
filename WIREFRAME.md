@@ -65,7 +65,7 @@ The built pages hold the final copy: `index.html` (home), `services.html` and `a
 │ CONTACT / FOOTER (navy)                                       │
 │ ┌─────────────────────────┐ ┌──────────────────────────────┐ │
 │ │ H2 + lede               │ │ Lead form (white card)       │ │
-│ │ UK office │ TR office   │ │ name, email, phone, area,    │ │
+│ │ UK reg.   │ Ölüdeniz    │ │ name, email, phone, area,    │ │
 │ │ phone/WhatsApp/email/hrs│ │ budget, stage, message,      │ │
 │ └─────────────────────────┘ │ consent, [Request →]         │ │
 │                             └──────────────────────────────┘ │
@@ -151,8 +151,7 @@ Can a UK citizen buy land in Türkiye? · Do I need to be in Türkiye during the
 ## 4. Before launch: check these
 
 Placeholders to replace:
-- UK registered office address and Türkiye office address
-- `FORM_ENDPOINT` in the script at the bottom of `index.html`: connect it to your CRM or form service. Until then the form validates but sends nothing.
+- `FORM_ENDPOINT` in `assets/site.js`: connect it to your CRM or form service. Until then the form validates but sends nothing.
 - Privacy, Terms, Cookies and Complaints pages
 
 Claims to confirm before they go live. Each one is a promise to clients, so only publish it if it is true in your contracts:

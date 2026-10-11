@@ -182,7 +182,7 @@ tbody tr:last-child>*{border-bottom:0}
 .contact .lede{color:var(--on-navy-muted)}
 .offices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;margin-top:40px}
 @media (max-width:460px){.offices{grid-template-columns:minmax(0,1fr)}}
-.office{border-top:1px solid rgba(207,168,102,.4);padding-top:14px;display:grid;gap:4px;font-size:.9375rem;color:var(--on-navy-muted)}
+.office{font-style:normal;border-top:1px solid rgba(207,168,102,.4);padding-top:14px;display:grid;gap:4px;font-size:.9375rem;color:var(--on-navy-muted)}
 .office b{color:var(--on-navy);font-weight:600}
 .office .tag{font-family:var(--font-mono);font-size:.6875rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
 .direct{margin-top:32px;display:grid;gap:10px;font-family:var(--font-mono);font-size:.9375rem}
