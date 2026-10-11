@@ -98,7 +98,7 @@ Alternative headlines for A/B testing:
 3. The Turkish Riviera, built properly.
 
 ### Trust banner
-- **Backed by Ata Travel Ltd**: Registered in England & Wales · Co. No. [XXXXXXXX]
+- **Backed by Ata Travel Ltd**: Registered in England & Wales · Co. No. 15948112 (links to Companies House)
 - **One fixed-price contract**: Agreed specification and price before ground is broken.
 - **Milestone payments**: You pay for stages that are finished and signed off, never in advance of the work.
 - **Title checked first**: Tapu, zoning and clearances verified before you commit a penny to land.
@@ -142,15 +142,15 @@ Can a UK citizen buy land in Türkiye? · Do I need to be in Türkiye during the
 - Lede: Tell us what you have in mind. A consultant will reply within one working day to arrange a video call at a time that suits you.
 - Form fields: Full name · Email · Phone (optional) · Area of interest · Total budget (£ bands) · Where are you now? · What would you like to build? · Consent
 - Button: **Request my consultation →**
-- Legal line: © 2026 AtaBuild, a trading name of Ata Travel Ltd. Registered in England & Wales, Company No. [XXXXXXXX].
+- Legal line: © 2026 AtaBuild, a trading name of Ata Travel Ltd. Registered in England & Wales, Company No. 15948112 (links to Companies House).
 
 ---
 
 ## 4. Before launch: check these
 
 Placeholders to replace:
-- Ata Travel Ltd company number (shown in 2 places), UK registered office address, Türkiye office address
-- Phone numbers, and whether `hello@atabuild.co` is live
+- UK registered office address and Türkiye office address
+- Whether `hello@atabuild.co` is live, and whether +90 533 923 09 63 should also be offered as a WhatsApp contact
 - `FORM_ENDPOINT` in the script at the bottom of `index.html`: connect it to your CRM or form service. Until then the form validates but sends nothing.
 - Privacy, Terms, Cookies and Complaints pages
 
