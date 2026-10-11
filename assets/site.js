@@ -42,6 +42,6 @@
     if(!FORM_ENDPOINT){msg.textContent='Thank you, '+name.split(' ')[0]+'. Your details are complete. (Preview build: this form is not yet connected, so nothing has been sent.)';msg.hidden=false;return}
     try{const r=await fetch(FORM_ENDPOINT,{method:'POST',body:new FormData(f)});if(!r.ok)throw 0;
       msg.textContent='Thank you, '+name.split(' ')[0]+'. Your enquiry has reached our UK office. We will reply within one working day.';msg.hidden=false;f.reset()}
-    catch(_){err.textContent='Your enquiry did not send. Please try again, or email hello@atabuild.co directly.';err.hidden=false}
+    catch(_){err.textContent='Your enquiry did not send. Please try again, or email info@atatravels.com or message us on WhatsApp.';err.hidden=false}
   });
 })();

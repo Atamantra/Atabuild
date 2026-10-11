@@ -66,12 +66,14 @@ The built pages hold the final copy: `index.html` (home), `services.html` and `a
 │ ┌─────────────────────────┐ ┌──────────────────────────────┐ │
 │ │ H2 + lede               │ │ Lead form (white card)       │ │
 │ │ UK office │ TR office   │ │ name, email, phone, area,    │ │
-│ │ tel / email / hours     │ │ budget, stage, message,      │ │
+│ │ phone/WhatsApp/email/hrs│ │ budget, stage, message,      │ │
 │ └─────────────────────────┘ │ consent, [Request →]         │ │
 │                             └──────────────────────────────┘ │
 │ © line · Company No. · Privacy Terms Cookies Complaints        │
 └──────────────────────────────────────────────────────────────┘
 ```
+
+A floating **WhatsApp us** button sits bottom-right on every page (icon only on phones) and opens a chat with +90 533 923 09 63, with a greeting already filled in.
 
 On mobile, every split collapses to one column, the programme scale header is hidden, and the gantt bars sit under each stage.
 
@@ -150,7 +152,6 @@ Can a UK citizen buy land in Türkiye? · Do I need to be in Türkiye during the
 
 Placeholders to replace:
 - UK registered office address and Türkiye office address
-- Whether `hello@atabuild.co` is live, and whether +90 533 923 09 63 should also be offered as a WhatsApp contact
 - `FORM_ENDPOINT` in the script at the bottom of `index.html`: connect it to your CRM or form service. Until then the form validates but sends nothing.
 - Privacy, Terms, Cookies and Complaints pages
 

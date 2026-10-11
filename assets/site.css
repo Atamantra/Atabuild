@@ -313,3 +313,10 @@ form .btn{justify-content:center;width:100%}
 .role .where{font-family:var(--font-mono);font-size:.6875rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
 .role h3{font-size:var(--step-2)}
 .role p{color:var(--muted);font-size:.9375rem}
+
+/* ---------- WhatsApp button ---------- */
+.wa-float{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;display:inline-flex;align-items:center;gap:10px;padding:12px 18px 12px 14px;border-radius:999px;background:#0E7A6E;color:#FFFFFF;font:600 .9375rem/1 var(--font-body);text-decoration:none;box-shadow:0 6px 20px rgba(8,19,33,.28);transition:transform .2s,background .2s}
+.wa-float:hover{background:#0B6A5F;transform:translateY(-2px)}
+.wa-float:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+@media (max-width:560px){.wa-float{padding:14px}.wa-float span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}}
+.legal{padding-bottom:88px}
