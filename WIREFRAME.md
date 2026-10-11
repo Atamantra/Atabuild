@@ -1,6 +1,6 @@
 # AtaBuild Homepage: Wireframe & Copy Deck
 
-`index.html` is the built page and holds the final copy. This file covers the structure, the reasons behind each section, and what still needs filling in before launch.
+The built pages hold the final copy: `index.html` (home), `services.html` and `about.html`. They share one stylesheet and script in `assets/`. This file covers the structure, the reasons behind each section, and what still needs filling in before launch.
 
 ---
 
@@ -161,3 +161,76 @@ Claims to confirm before they go live. Each one is a promise to clients, so only
 - **Timelines (14–18 months) and seismic-code wording**: have your site engineer confirm them.
 - The plot dossier in the hero is labelled *example*. Keep that label, or replace it with a real past project with the client's permission.
 - Avoid words like "guaranteed returns" or "risk-free" in ads and on the site. UK advertising rules (CAP Code) treat unqualified claims like these strictly when they are about overseas property investment.
+
+---
+
+## 5. Services page (`services.html`)
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│ PAGE HERO (navy + contours)                                   │
+│ Home / Services                  ┌──────────────────────────┐ │
+│ H1 Eight services. One team      │ CONTENTS · TIMING        │ │
+│    accountable for all of them.  │ 01 Consultancy   Wk 1–3  │ │
+│ sub + [Book] [Ways to work]      │ ...08 Handover   M 15+   │ │
+│                                  └──────────────────────────┘ │
+├──────────────────────────────────────────────────────────────┤
+│ × 8 SERVICE SECTIONS                                          │
+│ ┌───────────────┐ ┌────────────────────────────────────────┐ │
+│ │ 01 (large)    │ │ Intro paragraph                        │ │
+│ │ PHASE         │ │ What's included    │ You receive        │ │
+│ │ Title         │ │ ────────────────────────────────────── │ │
+│ │ Timing/Led by │ │ Terms you'll hear (Turkish glossary)    │ │
+│ │ (sticky)      │ │ ▌Your part: what the client does        │ │
+│ └───────────────┘ └────────────────────────────────────────┘ │
+├──────────────────────────────────────────────────────────────┤
+│ WAYS TO WORK WITH US: 4 cards with stage chips 01–08          │
+│ Full turnkey (featured) · Design & build · Consultancy & land │
+│ · Aftercare                                                   │
+├──────────────────────────────────────────────────────────────┤
+│ CTA BAND · then the shared contact footer                     │
+└──────────────────────────────────────────────────────────────┘
+```
+
+- **H1:** Eight services. One team *accountable for all of them.*
+- **Sub:** Most overseas buyers end up coordinating an estate agent, a lawyer, an architect, a builder and a property manager, none of whom answer to each other. AtaBuild does all of it under one contract, with a UK-registered parent company standing behind the work.
+- Each service has a "Your part" line so buyers see how little they need to do themselves.
+- The **"Terms you'll hear"** glossaries (Tapu, imar durumu, emsal, zemin etüdü, yapı denetim, iskan, DASK and others) prepare buyers for the Turkish paperwork. They show expertise without adding any sales pressure.
+- **Ways to work with us:** Full turnkey (01–08), Design & build for plot owners (03–08), Consultancy & land (01–03), Aftercare only (08). No prices are shown; each option is quoted after the consultation.
+- CTA band: "Not sure which stage you're at? We'll tell you."
+
+## 6. About page (`about.html`)
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│ PAGE HERO: H1 + sub + CTAs   │ COMPANY RECORD card            │
+├──────────────────────────────────────────────────────────────┤
+│ OUR STORY: heading │ 3-paragraph prose with drop cap          │
+│ Dictionary entry:  ata  /a·ta/ · Turkish · noun · Forefather  │
+├──────────────────────────────────────────────────────────────┤
+│ HOW WE ARE STRUCTURED: org chart                              │
+│        [Ata Travel Ltd · UK parent]                           │
+│                    │                                          │
+│        [AtaBuild · Türkiye operations]                        │
+│   ┌──────────┬───────────┬───────────┬──────────┐             │
+│   Architects  Inspection   Lawyers &   Craftsmen               │
+├──────────────────────────────────────────────────────────────┤
+│ SIX COMMITMENTS WE PUT IN WRITING (3 × 2 grid)                │
+├──────────────────────────────────────────────────────────────┤
+│ FOUR PEOPLE YOU'LL GET TO KNOW: client consultant (UK),       │
+│ project manager, project architect, site engineer             │
+├──────────────────────────────────────────────────────────────┤
+│ CTA BAND · then the shared contact footer                     │
+└──────────────────────────────────────────────────────────────┘
+```
+
+- **H1:** A British company building on the *Turkish coast.*
+- **Story H2:** We built AtaBuild for the buyer we kept meeting.
+- **Name entry:** *ata*, Turkish for forefather or ancestor: building something that outlasts you.
+- **Commitments:** Title before money · Pay for finished work · Everything in English · No surprise costs · You always know · Independent advice welcome.
+- The team section uses roles rather than names. Add real names, photos and short bios before launch. People buy from people, and this section will convert far better with real faces.
+
+### About page: claims to confirm
+- **The story** says Ata Travel has spent years bringing British travellers to the south-west coast, and that those clients prompted AtaBuild. I wrote this from the company names alone. Rewrite it with the true founding story, and add the founder's name and a photo if possible.
+- **The structure chart** describes AtaBuild as the Türkiye operating company under Ata Travel Ltd. Match it to the real legal set-up.
+- **"Six commitments we put in writing"** promises these terms are in every contract. Make sure they are.
